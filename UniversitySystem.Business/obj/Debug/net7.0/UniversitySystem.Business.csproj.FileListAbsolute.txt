@@ -3,3 +3,15 @@ C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0
 C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\UniversitySystem.Business.AssemblyInfoInputs.cache
 C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\UniversitySystem.Business.AssemblyInfo.cs
 C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\UniversitySystem.Business.csproj.CoreCompileInputs.cache
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\bin\Debug\net7.0\UniversitySystem.Business.deps.json
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\bin\Debug\net7.0\UniversitySystem.Business.dll
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\bin\Debug\net7.0\UniversitySystem.Business.pdb
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\bin\Debug\net7.0\UniversitySystem.DataAccess.dll
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\bin\Debug\net7.0\UniversitySystem.Entities.dll
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\bin\Debug\net7.0\UniversitySystem.DataAccess.pdb
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\bin\Debug\net7.0\UniversitySystem.Entities.pdb
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\UniversitySystem.Business.csproj.CopyComplete
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\UniversitySystem.Business.dll
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\refint\UniversitySystem.Business.dll
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\UniversitySystem.Business.pdb
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\ref\UniversitySystem.Business.dll
