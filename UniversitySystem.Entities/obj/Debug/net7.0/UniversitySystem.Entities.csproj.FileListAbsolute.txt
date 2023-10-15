@@ -1,0 +1,12 @@
+C:\Users\user\source\UniversitySystem\UniversitySystem.Entities\bin\Debug\net7.0\UniversitySystem.Entities.deps.json
+C:\Users\user\source\UniversitySystem\UniversitySystem.Entities\bin\Debug\net7.0\UniversitySystem.Entities.dll
+C:\Users\user\source\UniversitySystem\UniversitySystem.Entities\bin\Debug\net7.0\UniversitySystem.Entities.pdb
+C:\Users\user\source\UniversitySystem\UniversitySystem.Entities\obj\Debug\net7.0\UniversitySystem.Entities.csproj.AssemblyReference.cache
+C:\Users\user\source\UniversitySystem\UniversitySystem.Entities\obj\Debug\net7.0\UniversitySystem.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\UniversitySystem\UniversitySystem.Entities\obj\Debug\net7.0\UniversitySystem.Entities.AssemblyInfoInputs.cache
+C:\Users\user\source\UniversitySystem\UniversitySystem.Entities\obj\Debug\net7.0\UniversitySystem.Entities.AssemblyInfo.cs
+C:\Users\user\source\UniversitySystem\UniversitySystem.Entities\obj\Debug\net7.0\UniversitySystem.Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\source\UniversitySystem\UniversitySystem.Entities\obj\Debug\net7.0\UniversitySystem.Entities.dll
+C:\Users\user\source\UniversitySystem\UniversitySystem.Entities\obj\Debug\net7.0\refint\UniversitySystem.Entities.dll
+C:\Users\user\source\UniversitySystem\UniversitySystem.Entities\obj\Debug\net7.0\UniversitySystem.Entities.pdb
+C:\Users\user\source\UniversitySystem\UniversitySystem.Entities\obj\Debug\net7.0\ref\UniversitySystem.Entities.dll
