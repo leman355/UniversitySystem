@@ -1,0 +1,5 @@
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\UniversitySystem.Business.csproj.AssemblyReference.cache
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\UniversitySystem.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\UniversitySystem.Business.AssemblyInfoInputs.cache
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\UniversitySystem.Business.AssemblyInfo.cs
+C:\Users\user\source\UniversitySystem\UniversitySystem.Business\obj\Debug\net7.0\UniversitySystem.Business.csproj.CoreCompileInputs.cache
