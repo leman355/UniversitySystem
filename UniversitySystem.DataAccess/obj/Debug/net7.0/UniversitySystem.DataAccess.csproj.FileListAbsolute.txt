@@ -1,0 +1,17 @@
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\bin\Debug\net7.0\UniversitySystem.DataAccess.deps.json
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\bin\Debug\net7.0\UniversitySystem.DataAccess.runtimeconfig.json
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\bin\Debug\net7.0\UniversitySystem.DataAccess.dll
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\bin\Debug\net7.0\UniversitySystem.DataAccess.pdb
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\bin\Debug\net7.0\UniversitySystem.Entities.dll
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\bin\Debug\net7.0\UniversitySystem.Entities.pdb
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\obj\Debug\net7.0\UniversitySystem.DataAccess.csproj.AssemblyReference.cache
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\obj\Debug\net7.0\UniversitySystem.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\obj\Debug\net7.0\UniversitySystem.DataAccess.AssemblyInfoInputs.cache
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\obj\Debug\net7.0\UniversitySystem.DataAccess.AssemblyInfo.cs
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\obj\Debug\net7.0\UniversitySystem.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\obj\Debug\net7.0\UniversitySystem.DataAccess.csproj.CopyComplete
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\obj\Debug\net7.0\UniversitySystem.DataAccess.dll
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\obj\Debug\net7.0\refint\UniversitySystem.DataAccess.dll
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\obj\Debug\net7.0\UniversitySystem.DataAccess.pdb
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\obj\Debug\net7.0\UniversitySystem.DataAccess.genruntimeconfig.cache
+C:\Users\user\source\UniversitySystem\UniversitySystem.DataAccess\obj\Debug\net7.0\ref\UniversitySystem.DataAccess.dll
