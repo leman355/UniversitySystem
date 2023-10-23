@@ -2,9 +2,11 @@
 using UniversitySystem.Business.Abstract;
 using UniversitySystem.Business.DTO.UserDtos;
 using Swashbuckle.AspNetCore.Annotations;
+using Microsoft.AspNetCore.Authorization;
 
 namespace UniversitySystem.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : Controller

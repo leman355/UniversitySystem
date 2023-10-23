@@ -2980,19 +2980,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\volunteer16\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.DataAccess\\UniversitySystem.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.DataAccess\\UniversitySystem.DataAccess.csproj",
       "projectName": "UniversitySystem.DataAccess",
-      "projectPath": "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.DataAccess\\UniversitySystem.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.DataAccess\\UniversitySystem.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\volunteer16\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\volunteer16\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3000,14 +3000,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://itmnexus.emlak.gov.az/repository/nugget-v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.Entities\\UniversitySystem.Entities.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.Entities\\UniversitySystem.Entities.csproj"
+            "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.Entities\\UniversitySystem.Entities.csproj": {
+              "projectPath": "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.Entities\\UniversitySystem.Entities.csproj"
             }
           }
         }
@@ -3059,7 +3059,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

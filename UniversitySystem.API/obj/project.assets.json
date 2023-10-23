@@ -88,6 +88,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.15.1"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -1341,6 +1360,21 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.12": {
+      "sha512": "KlSupL6h5oUwjMAoNJO2vp0MrqGYeO6nfdGjAEriK8xUccQndmQW9zQwF7d1R80abrZD/T9b01hmhk3v3LX05g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/7.0.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.7.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -3318,6 +3352,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.12",
       "Microsoft.EntityFrameworkCore >= 7.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.12",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.11",
@@ -3331,19 +3366,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\volunteer16\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.API\\UniversitySystem.API.csproj",
+      "projectUniqueName": "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.API\\UniversitySystem.API.csproj",
       "projectName": "UniversitySystem.API",
-      "projectPath": "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.API\\UniversitySystem.API.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.API\\obj\\",
+      "projectPath": "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.API\\UniversitySystem.API.csproj",
+      "packagesPath": "C:\\Users\\volunteer16\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\volunteer16\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3351,20 +3386,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://itmnexus.emlak.gov.az/repository/nugget-v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.Business\\UniversitySystem.Business.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.Business\\UniversitySystem.Business.csproj"
+            "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.Business\\UniversitySystem.Business.csproj": {
+              "projectPath": "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.Business\\UniversitySystem.Business.csproj"
             },
-            "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.DataAccess\\UniversitySystem.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.DataAccess\\UniversitySystem.DataAccess.csproj"
+            "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.DataAccess\\UniversitySystem.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.DataAccess\\UniversitySystem.DataAccess.csproj"
             },
-            "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.Entities\\UniversitySystem.Entities.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\UniversitySystem\\UniversitySystem.Entities\\UniversitySystem.Entities.csproj"
+            "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.Entities\\UniversitySystem.Entities.csproj": {
+              "projectPath": "C:\\Users\\volunteer16\\source\\UniversitySystem\\UniversitySystem.Entities\\UniversitySystem.Entities.csproj"
             }
           }
         }
@@ -3379,6 +3414,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[7.0.12, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.12, )"
@@ -3427,7 +3466,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
