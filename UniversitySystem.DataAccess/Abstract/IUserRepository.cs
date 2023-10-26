@@ -12,5 +12,7 @@ namespace UniversitySystem.DataAccess.Abstract
         Task DeleteUserById(int id);
         Task<List<Group>> GetUserGroups(int userId);
         Task<List<Group>> GetGroups(List<int> ids);
+        Task<User> GetUserByEmail(string email);
+        Task<Role> GetUserRoleByEmail(string email);
     }
 }

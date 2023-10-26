@@ -23,20 +23,24 @@ builder.Services.AddAuthentication(options =>
 })
 .AddJwtBearer(options =>
 {
-    var key = Encoding.ASCII.GetBytes("eyJuYW1lIjoiVW5pdmVyc2l0eVN5c3RlbSIsImlhdCI6MjF9");
-    var issuer = "University";
-    var audience = "System";
-
-    options.TokenValidationParameters = new TokenValidationParameters()
+    options.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
         RequireExpirationTime = true,
-        ValidateAudience = true,
         ValidateIssuer = true,
-        ValidAudience = audience,
-        ValidIssuer = issuer,
+        ValidateAudience = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Key"]))
     };
+});
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminRole", policy =>
+        policy.RequireRole("admin"));
+    options.AddPolicy("UserRoles", policy =>
+        policy.RequireRole("user", "superadmin"));
 });
 
 
@@ -116,6 +120,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

@@ -1,5 +1,6 @@
 ﻿using UniversitySystem.Business.DTO.GroupDtos;
 using UniversitySystem.Business.DTO.UserDtos;
+using UniversitySystem.Entities;
 
 namespace UniversitySystem.Business.Abstract
 {
@@ -12,5 +13,6 @@ namespace UniversitySystem.Business.Abstract
         Task<UserToUpdateDto> UpdateUser(int id, UserToUpdateDto user);
         Task DeleteUserById(int userId);
         Task<List<ShortGroupToListDto>> GetUserGroups(int userId);
+        Task<Role> GetUserRoleByEmail(string email);
     }
 }

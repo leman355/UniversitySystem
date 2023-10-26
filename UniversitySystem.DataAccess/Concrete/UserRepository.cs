@@ -68,5 +68,18 @@ namespace UniversitySystem.DataAccess.Concrete
             var groups = _context.Groups.Where(g => ids.Contains(g.GroupId)).ToList();
             return groups;
         }
+
+        public async Task<User> GetUserByEmail(string email)
+        {
+            return await _context.Users.Include(x => x.Role)
+                .Where(u => u.Email == email)
+                .FirstOrDefaultAsync();
+        }
+
+        public async Task<Role> GetUserRoleByEmail(string email)
+        {
+            User user = await GetUserByEmail(email);
+            return user?.Role;
+        }
     }
 }

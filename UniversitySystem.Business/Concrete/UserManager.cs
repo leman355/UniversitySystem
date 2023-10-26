@@ -87,5 +87,10 @@ namespace UniversitySystem.Business.Concrete
             List<ShortGroupToListDto> result= _mapper.Map<List<ShortGroupToListDto>>(groups);
             return result;
         }
+
+        public async Task<Role> GetUserRoleByEmail(string email)
+        {
+            return await _userRepository.GetUserRoleByEmail(email);
+        }
     }
 }

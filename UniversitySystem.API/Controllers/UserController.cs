@@ -24,6 +24,8 @@ namespace UniversitySystem.API.Controllers
             var users = await _userService.GetAllUsers();
             return Ok(users);
         }
+        
+        [Authorize(Policy = "AdminRole")]
         [HttpGet("{userId}")]
         [SwaggerOperation(Summary = "Get a user by ID")]
         public async Task<IActionResult> GetUserById(int userId)
@@ -35,6 +37,8 @@ namespace UniversitySystem.API.Controllers
             }
             return Ok(user);
         }
+
+        [Authorize(Policy = "UserRoles")]
         [HttpGet("byRole/{roleId}")]
         [SwaggerOperation(Summary = "Get users by role")]
         public async Task<IActionResult> GetUsersByRoleId(int roleId)
@@ -89,6 +93,19 @@ namespace UniversitySystem.API.Controllers
         {
             var groups = await _userService.GetUserGroups(userId);
             return Ok(groups);
+        }
+
+        [HttpGet("roleByEmail")]
+        [SwaggerOperation(Summary = "Get user role by email")]
+        public async Task<IActionResult> GetUserRoleByEmail([FromQuery] string email)
+        {
+            var role = await _userService.GetUserRoleByEmail(email);
+            if (role == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(role);
         }
     }
 }
