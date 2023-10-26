@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace UniversitySystem.API.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : Controller

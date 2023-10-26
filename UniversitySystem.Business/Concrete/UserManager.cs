@@ -4,6 +4,8 @@ using UniversitySystem.Business.DTO.UserDtos;
 using UniversitySystem.Entities;
 using UniversitySystem.DataAccess.Abstract;
 using UniversitySystem.Business.DTO.GroupDtos;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace UniversitySystem.Business.Concrete
 {
@@ -40,6 +42,7 @@ namespace UniversitySystem.Business.Concrete
         public async Task<UserToAddDto> CreateUser(UserToAddDto dto)
         {
             User user = _mapper.Map<User>(dto);
+            user.Password = HashPassword(dto.Password);
             List<Group> groups = await _userRepository.GetGroups(dto.GroupIds);
             user.Groups = groups;
          
@@ -91,6 +94,14 @@ namespace UniversitySystem.Business.Concrete
         public async Task<Role> GetUserRoleByEmail(string email)
         {
             return await _userRepository.GetUserRoleByEmail(email);
+        }
+        private string HashPassword(string password)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+                return BitConverter.ToString(hashedBytes).Replace("-", "").ToLower();
+            }
         }
     }
 }

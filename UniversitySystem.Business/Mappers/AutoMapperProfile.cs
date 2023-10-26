@@ -27,6 +27,7 @@ namespace UniversitySystem.Business.Mappers
             CreateMap<UserToUpdateDto, User>();
             CreateMap<User, UserToUpdateDto>();
             CreateMap<User, ShortUserToListDto>();
+            CreateMap<User, UserLoginDto>();
 
             CreateMap<TeacherToAddDto, Teacher>();
             CreateMap<Teacher, TeacherToAddDto>();
